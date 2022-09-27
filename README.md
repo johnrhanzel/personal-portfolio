@@ -12,13 +12,3 @@
 9. Your portfolio should have at least one media query
 10. The height of the welcome section should be equal to the height of the viewport
 11. The navbar should always be at the top of the viewport
-
-
--- Know more about me --
-
-- 👋 Hi, I’m John Rhanzel
-- 👀 I’m interested in Software Engineering
-- 🌱 I’m currently learning Front-end Development
-- 💞️ I’m looking to collaborate on open-source projects
-- 📫 How to reach me johnrhanzeleb@gmail.com
-- 🐥 Follow me on twitter @hellorhanzel
