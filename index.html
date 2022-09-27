@@ -20,42 +20,51 @@
 
 <body>
     <!-- Navigation Bar -->
-    <nav id="navbar">
-        <ul>
-            <li><a href="#welcome-section">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="nav-container">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#welcome-section">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <!-- Welcome Section -->
     <section id="welcome-section">
-        <h1>Hi, I'm John Rhanzel</h1>
+        <h1>John Rhanzel</h1>
         <p>Web Developer</p>
     </section>
     <!-- Project Section -->
     <section id="projects">
-        <!-- First Project -->
+        <!-- Project -->
         <div class="project-tile">
-            <a href="https://tribute-page-project.anonymoustka.repl.co/"><img src="/Img/Norman.png"
-                    alt="Tribute Page"></a>
-            <a href="https://survey-form.anonymoustka.repl.co/"><img src="/Img/Survey Form.png" alt="Survey Form"></a>
-            <a href="https://product-landing-page.anonymoustka.repl.co/"><img src="/Img/Landing Page.png"
-                    alt="Landing Page"></a>
-            <a href="https://techical-documentation-page.anonymoustka.repl.co/"><img
-                    src="/Img/Technical Documentation Page.png" alt="Technical Documentation Page"></a>
+            <div class="project">
+                <p>Tribute Page</p>
+                <a href="https://johnrhanzel.github.io/tribute-page-project/"><img src="/Img/Norman.png" alt="tribute image" class="project-img"></a>
+            </div>
+            <div class="project">
+                <p>Survey Form</p>
+                <a href="https://johnrhanzel.github.io/survey-form/"><img src="/Img/Survey Form.png" alt="Survey image" class="project-img"></a>
+            </div>
+            <div class="project">
+                <p>Landing Page</p>
+                <a href="https://johnrhanzel.github.io/product-landing-page/"><img src="/Img/Landing Page.png" alt="Landing page image" class="project-img"></a>
+            </div>
+            <div class="project">
+                <p>Documentation Page</p>
+                <a href="https://johnrhanzel.github.io/techical-documentation-page/"><img src="/Img/Technical Documentation Page.png" alt="Technical documentation image" class="project-img"></a>
+            </div>
         </div>
     </section>
     <!-- Contact Section -->
     <section id="contact">
         <h2>Care to have a coffee with me?</h2>
         <!-- Icons and Links -->
-        <a href="https://www.linkedin.com/in/johnrhanzelebora" id="profile-link" target="_blank"><i
-                class='fab fa-twitter-square'> Twitter</i></a>
-        <a href="https://github.com/johnrhanzelgit" id="profile-link" target="_blank"><i class='fab fa-github-square'>
-                GitHub</i></a>
+        <a href="https://twitter.com/hellorhanzel"><img src="/Img/twitter.svg" alt="Twitter logo" class="social-icons"></a>
+        <a href="https://www.linkedin.com/in/johnrhanzelebora"><img src="/Img/linkedin.svg" alt="LinkedIn logo" class="social-icons"></a>
+        <a href="https://github.com/johnrhanzel"><img src="/Img/github.svg" alt="GitHub logo" class="social-icons"></a>
     </section>
-    <hr>
-    <footer>©Created for Responsive Design on FreeCodeCamp</footer>
+    <footer class="footer-container">©Created for Responsive Design on FreeCodeCamp</footer>
 </body>
 
 </html>
