@@ -12,3 +12,8 @@
 9. Your portfolio should have at least one media query
 10. The height of the welcome section should be equal to the height of the viewport
 11. The navbar should always be at the top of the viewport
+
+
+
+
+<h1>Status: Ongoing</h1>
